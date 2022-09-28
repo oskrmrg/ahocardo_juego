@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 20px ;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(150, 36, 1)
+    
+  }
+
+  .logo {
+    margin-top: 20px;
+    margin-left: 50px;
+    -webkit-box-reflect: below 0 linear-gradient(
+                        rgba(0,0,0,0.1),
+                        rgba(0,0,0,0.3)) ;
+  }
+
+  .imagen{
+    background: url(images/fondoletras2.png);
+    background-size: cover;
+  }
+
+  .container {
+    font-size: 16px;
+    background-color: #ffffff;
+    width: 90vw;
+    max-width: 34em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    padding: 3em;
+    border-radius: 0.6em;
+    box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+  }
+  #opcion-palabra {
+    text-align: center;
+  }
+  #opcion-palabra div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2em 0 2.4em 0;
+  }
+  #opcion-palabra button {
+    padding: 0.6em 1.2em;
+    border: 3px solid darkgreen;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.3em;
+    text-transform: capitalize;
+  }
+  #opcion-palabra button:disabled {
+    border: 3px solid #808080;
+    color: #868585;
+    background-color: #e99898;
+  }
+  #opcion-palabra button.active {
+    background-color: #31f493;
+    border: 3px solid #000000;
+    color: #000000;
+  }
+
+  #cancelar{
+    padding: 0.6em 1.2em;
+    border: 3px solid darkred;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.3em;
+    text-transform: capitalize;
+  }
+
+  .teclado-letras {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+  }
+
+  #teclado-letras button {
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 0.3em;
+    background-color: #ffffff;
+  }
+
+  .new-game-popup {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.6em;
+  }
+
+  #user-input-section {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin: 0.6em 0 1.2em 0;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid #000000;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #result-text h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  #result-text p {
+    font-size: 1.25em;
+    margin: 1em 0 2em 0;
+  }
+
+  #result-text span {
+    font-weight: 600;
+  }
+
+  #new-game-button {
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    background-color: #f48f31;
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 0.2em;
+  }
+
+  .win-msg {
+    color: #39d76e;
+  }
+
+  .lose-msg {
+    color: #fe5152;
+  }
+
+  .aluraone{
+    display: flex;
+    float: right;
+    display: block;
+    margin-right: 40px;
+  }
+
+  .divfooter{
+    align-content: center;
+    margin-top: 8px;
+    padding-top: 15px;
+    
+    text-align: center;
+    background: linear-gradient(#fefefe, #f7da7b);
+    opacity: 0.75;
+    height: 155px;
+    width: auto;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.divdevelop{
+  margin-left: 650px;
+}
+
+.divcorreo{
+  margin-left: 100px;
+}
+
+.divcopy{
+  display: block;
+  text-align: center;
+  margin-left: -300px;
+}
+
+.correo{
+    margin-top: 0px;
+    font-size: 20px;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.correo:hover{
+    font-size: 22px;
+}
+.copyright{
+  color: #444444;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px
+}
+
